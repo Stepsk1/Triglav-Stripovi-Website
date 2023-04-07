@@ -1,0 +1,307 @@
+<stripovi>
+
+    <strip>
+        <naziv>ALAN FORD 134 - GUMIFLEXOVA OSVETA</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+        </autori>
+        <cena>225</cena>
+        <sifra>346036</sifra>
+        <dostupno>NE</dostupno>
+        <godina-izdanja>2020</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 207 CLASSIC - VRADŽBINE</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+        </autori>
+        <cena>330</cena>
+        <sifra>353604</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 206-CLASSIC</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+        </autori>
+        <cena>330</cena>
+        <sifra>353271</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2015</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 91: POP ART</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+        </autori>
+        <cena>225</cena>
+        <sifra>350315</sifra>
+        <dostupno>NE</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 202 - SUPERSIRKOV POVRATAK</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+        </autori>
+        <cena>225</cena>
+        <sifra>350771</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 200 -   HIK, HIK, HURA!</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+            <autor>Paolo Piffarerio</autor>
+        </autori>
+        <cena>225</cena>
+        <sifra>350447</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2017</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 199 -   OSKVRNJENI GROB</naziv>        
+        <autori>
+            <autor>Max Bunker</autor>
+            <autor>Paolo Piffarerio</autor>
+        </autori>
+        <cena>225</cena>
+        <sifra>350446</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 146 - REBUS</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+            <autor>Paolo Piffarerio</autor>
+        </autori>
+        <cena>225</cena>
+        <sifra>346256</sifra>
+        <dostupno>NE</dostupno>
+        <godina-izdanja>2020</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 143 - NOVI SUPERHIK</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+            <autor>Paolo Piffarerio</autor>
+        </autori>
+        <cena>325</cena>
+        <sifra>346253</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+    
+    <strip>
+        <naziv>ALAN FORD 135 - NEUHVATLJIV</naziv>
+        <autori>
+            <autor>Max Bunker</autor>
+        </autori>
+        <cena>490</cena>
+        <sifra>346037</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2013</godina-izdanja>
+    </strip>
+        
+    <strip>
+        <naziv>KONAN: CRVENA SONJA</naziv>
+        <autori>
+            <autor>Roy Thomas</autor>
+            <autor>Bruce Jones</autor>
+        </autori>
+        <cena>1040</cena>
+        <sifra>349406</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+              
+    <strip>
+        <naziv>KRALJ KONAN: KNJIGA DRUGA</naziv>
+        <autori>
+            <autor>Timothy Truman</autor>
+        </autori>
+        <cena>2232</cena>
+        <sifra>349407</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>ŽIVOT I SMRT KONANA</naziv>
+        <autori>
+            <autor>Jason Aaron</autor>
+        </autori>
+        <cena>1800</cena>
+        <sifra>350797</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2021</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>KONAN - DIVLJI MAČ SIMERIJE 9</naziv>
+        <autori>
+            <autor>Timothy Truman</autor>
+        </autori>
+        <cena>2508</cena>
+        <sifra>316074</sifra>
+        <dostupno>NE</dostupno>
+        <godina-izdanja>2014</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>DYLAN DOG 183 - ZAMETAK</naziv>
+        <autori>
+            <autor>Giovanni Di Gregorio</autor>
+            <autor>Giovanni Gualdoni</autor>
+        </autori>
+        <cena>280</cena>
+        <sifra>351751</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>DYLAN DOG 185 - VEČNA GODIŠNJA DOBA</naziv>
+        <autori>
+            <autor>Barbato Paola</autor>
+        </autori>
+        <cena>280</cena>
+        <sifra>351753</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>DYLAN DOG 186 - O VREMENU I DRUGIM ILUZIJAMA</naziv>
+        <autori>
+            <autor>Giovanni Di Gregorio</autor>
+            <autor>Giovanni Gualdoni</autor>
+            <autor>Paola Barbato</autor>
+        </autori>
+        <cena>280</cena>
+        <sifra>351754</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>ZLATNA SERIJA 39 - DILAN DOG, IZ MOJE KRVI / BOŽJA ŠAHOVSKA TABLA</naziv>
+        <autori>
+            <autor>Giovanni Di Gregorio</autor>
+            <autor>Giovanni Gualdoni</autor>
+            <autor>Paola Barbato</autor>
+        </autori>
+        <cena>344</cena>
+        <sifra>351811</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>DYLAN DOG MAXI 24 OLD BOY 3</naziv>
+        <autori>
+            <autor>Giovanni Di Gregorio</autor>
+            <autor>Giovanni Gualdoni</autor>
+            <autor>Paola Barbato</autor>
+        </autori>
+        <cena>630</cena>
+        <sifra>351367</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2021</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>HELLBOY-KRATKE PRIČE-PRVI TOM</naziv>
+        <autori>
+            <autor>Mike Mignola</autor>
+        </autori>
+        <cena>2590</cena>
+        <sifra>350469</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2021</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>HELLBOY-SEME UNIŠTENJA-OMNIBUS 15 PRIČA</naziv>
+        <autori>
+            <autor>John Byrne</autor>
+            <autor>Mike Mignola</autor>
+        </autori>
+        <cena>2390</cena>
+        <sifra>350468</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2021</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>ZAGOR EXTRA 337 - IZDAJNIK</naziv>
+        <autori>
+            <autor>Ade Capone</autor>
+            <autor>Moreno Burattini</autor>
+        </autori>
+        <cena>250</cena>
+        <sifra>352119</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>ZAGOR EXTRA 338 - LJUDI I ZVJERI</naziv>
+        <autori>
+            <autor>Ade Capone</autor>
+            <autor>Bepi Vigna</autor>
+            <autor>Renato Queirolo</autor>
+        </autori>
+        <cena>250</cena>
+        <sifra>352251</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>ZAGOR 185 - OSVETA BEZ KRAJA</naziv>
+        <autori>
+            <autor>Guido Nolitta</autor>
+            <autor>Sergio Bonelli</autor>
+        </autori>
+        <cena>280</cena>
+        <sifra>351782</sifra>
+        <dostupno>NE</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>ZAGOR KLASIK 66 A - GOSPODARI VATRE</naziv>
+        <autori>
+            <autor>Guido Nolitta</autor>
+            <autor>Sergio Bonelli</autor>
+        </autori>
+        <cena>495</cena>
+        <sifra>353450</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+      
+    <strip>
+        <naziv>ZAGOR EXTRA 342 - KRADLJIVAC SJENA</naziv>
+        <autori>
+            <autor>Mauro Boselli</autor>
+        </autori>
+        <cena>250</cena>
+        <sifra>353678</sifra>
+        <dostupno>DA</dostupno>
+        <godina-izdanja>2022</godina-izdanja>
+    </strip>
+    
+</stripovi>

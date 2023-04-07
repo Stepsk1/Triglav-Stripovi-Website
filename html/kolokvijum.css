@@ -1,0 +1,490 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Verdana', 'Georgia';
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+body
+{
+    background-color: #303d57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar li > a
+{
+    color: white;
+    display: flex;
+    padding: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.sidebar li > a:hover
+{
+    color: #db1d31;
+}
+
+.sidebar ul
+{
+    list-style-type: none;
+}
+
+.sidebar ul
+{
+    display: flex;
+    padding: 15px;
+    width: 500px;
+}
+
+.header
+{
+    background-color: black;
+    width: 978px;
+    height: 350px;
+}
+
+.header
+{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 978px ;
+}
+
+.left
+{
+    color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.left > h1 
+{
+    font-size: 25px;
+}
+
+.left button
+{
+    padding: 10px;
+    color: #db1d31;
+}
+
+.left p
+{
+    margin-top: 15px;
+    width: 300px;
+}
+
+.header > img 
+{
+    width: 70px;
+    position: relative;
+    top: -100px;
+    left: 120px;
+}
+
+.right
+{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 650px;
+    margin-bottom: 100px;
+}
+
+.right > button
+{
+    width: 200px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    background-color: #db1d31;
+}
+
+
+
+
+
+
+
+
+
+Posao
+{
+    Priscilla tri Koncepta
+    UpWork prijave za projekte
+    NoFace Milica post
+    NoFace tri posta u pripremi
+    NoFace dodaj kodove i zatvori listu
+    Zatvori ugovore
+    Priscilla Website
+    Pokreni Factu
+    Zadovoljni Kupci
+}
+
+Ostalo
+{
+    Pogledaj RAM za Mukija
+}
+
+Ucenje
+{
+    Mreže Pomodor 1;
+    Mreže Pomodor 2;
+    Mreže Pomodor 3;
+    Mreže Pomodor 4;
+    Mreže Pomodor 5;
+    Mreže Pomodor 6;
+    Mreže Pomodor 7;  
+}
+
+Trening Svakog Dana
+{
+    Trening 100 sklekova
+    Trening 100 cucnja
+    Trening 100 trbusnjaka
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kojim slojevima pripadaju sledeći uređaji: svič, hab, ruter, most, ripiter?
+Svic: sloj veze podataka, hab: fizicki sloj, ruter: mrezni sloj, most: sloj veze podataka, ripiter: fizicki sloj.
+
+Koliko bajtova ima MAC adresa? Dati primer jedne MAC adrese (uz ispravnu notaciju).
+MAC adresa ima 6 bajtova.Primer:  00:18:02:74:13:FB
+
+Kojom komandom se na Linuxu ispisuju MAC i IP adrese mrežnih adaptera?
+ip addr
+
+Po čemu se razlikuju RIP i OSPF protokol? U kojem sloju rade?
+Rade u mreznom sloju.
+Rip protokol funkcionise tako sto svaki ruter odredjuje rastojanje do neposrednih suseda pomocu ECHO Paketa. Svakih T sekundi razmenjuju se vektori razdaljine, i tu se javlja problem priblizavanja beskonacnosti.Nasledio ga je OSPF.
+OSPF Protokol radi po principu Dijkstrinog algoritma, tj to je poslednji korak u ovom protokolu a prethodna 4 su: da otkrije susede, da izmeri vreme i troskove do njih, da  napravi paket i da posalje taj paket svima.
+
+Navesti osnovne Berkeley Sockets primitive? (funkcije) Koje od njih su isključivo serverske, a koje klijentske?
+SOCKET, BIND, LISTEN, ACCEPT, CONNECT, SEND, RECEIVE, CLOSE
+Iskljucivo serverske su: BIND, LISTEN, ACCEPT
+Iskljucivo  klijentske su: CONNECT
+
+Čemu služi ARP protokol, a čemu DHCP? Objasniti.
+ARP protokol sluzi kada paket stigne do svica on posalje broadcast ip adrese I racunar koji ima tu IP adresu mu vrati svoju mac adresu, tako ovaj protokol pravi ARP tabelu (par IP – MAC). Ona traje oko 10ak minuta I posle toga opet mora da pita.
+DHCP obnuto od ARP, vraca mu IP adresu
+
+Koliko bajtova ima IPv4, a koliko IPv6 adresa? Dati primer (uz ispravnu notaciju).
+IPv4 ima 4 bajta a IPv6 ima 16 bajtova. Primer IPv4 je 192.51.28.12, a primer IPv6 je 2041:0000:130F:0000:0000:07C0:853A:140B
+
+Da li se na bežičnim mrežama više isplati otkrivanje ili ispravljanje grešaka?
+Na bezicnim mrezama se vise isplati ispravljanje gresaka jer dolazi do dosta gresaka I mnogo vremena bi se izgubilo na ponovnom slanju I moze opet doci do greske
+
+Koji protokol je složeniji, TCP ili UDP? Kom sloju pripadaju ovi protokoli?
+TCP je slozeniji zbog sigurnosti u prenosu informacija i on u samom toku ima ugradjenu kontrolu prenosa podataka. Pripadaju transportnom sloju.
+
+Napisati komande koje štampaju IP adrese I MAC adrese mrežnih kontrolera na Linuxu i na Windowsu.
+Linux: ip addr, Windows: ipconfig /all
+
+U/Na kojim mrežama se koriste RTS (Request to send) I CTS (Clear to send) okviri? Koji problem oni rešavaju?
+RTS I CTS se koriste u bezicnim lokalnim mrezama. Kada stanica A zeli da emituje neki okvir stanici B ona salje RTS to je zahtev za slanje, I RTS vide sve stanice u domenu A. Kada stanica B primi RTS frejm ona emituje CTS frejm. Ona salje CTS da bi sve stanice koje su van domena A videle njihovu komunikaciju I u tom trenutku dok kumuniciraju A I B ostale stranice cute I cekaju da se zavrsi slanje podataka izmedju A I B.(problem skrivene stanice)
+
+Čemu služi transportni sloj? Koja dva protokola rade u tom sloju na Internetu?
+Transportni sloj treba da obezbedi pouzdan I isplativ prenos podataka bez obzira na fizicku mrezu ili mreze koje se trenutno nalaze izmedju izvorista I odredista. Dva sloja koja rade na internetu u ovom sloju su UDP(bez uspostavljanja direktne veze) I TCP(sa uspostavljanjem direktne veze).
+
+Kojom komandom se u Linuxu može pratiti saobraćaj paketa?
+tracert google.com (prati pakete)
+
+Zaokružiti regularne IP adrese koje se mogu pojaviti na Internetu: 130.1111.96.34, 412.19.20.91, 147.91.204.112, 10.10.250.11, 192.168.1.49
+147.91.204.112 
+10.10.250.11  ne moze, privatne su od 10.0.0.0 do 10.255.255.255!!!
+ 		192.168.1.49 ne moze, privatne su od 192.168.0.0 do 192.168.255.255.
+
+Navesti barem 5 protokola aplikativnog sloja i na kojim (TCP) portovima rade.                                                                                                                                                                                                        
+SMTP,POP3,HTTP, DNS,SSH,FTP,HTTPS,IMAP
+HTTP - port 80
+	POP3 - port110
+	SMTP - port 25
+	DNS - port 53
+SSH - port 22
+	IMAp 443
+
+Čemu služi multipleksiranje? Navesti osnovne vrste multipleksiranja, kao i koja se vrsta odnosi na analogne, a koja na digitalne signale.
+Multipleksiranje sluzi za kombinovanje vise signala u jedan signal.
+Vrste:
+Multipleksiranje podelom talasne duzine(analogni) I Multipleksiranje podelom vremena (digitalni signali) I kodno multipleksiranje.
+
+Može li jedan računar imati više IP adresa? Na koji način?
+Moze, na primer ako poseduje vise mreznih kartica(NIC), ili mu je dodeljen	veci broj virtuelnih IP adresa.
+
+Da li će doći do greške ukoliko se za timeout za ACK postavi neka izuzetno mala vrednost? Objasniti.
+Nece doci do greske, nego ce posiljalac po isteku svakog timeouta opet slati paket, dok mu jednom ne stigne potvrda o prijemu.
+
+U kom sloju se radi kontrola toka, a u kom sloju kontrola zagušenja?
+Kontrola toka radi u sloju veze podataka a kontrola zagusenja radi u mreznom sloju, sloju veze podataka i transportnom
+ 
+
+Navesti barem dva algoritma za rutiranje paketa.
+Dijkstra, plavljenje, OSPF, RIP
+
+Kako najjednostavije da saznamo da li se naš računar/telefon nalazi u NAT domenu? Šta znači NAT?
+NAT omogucava da imamo IP adresa Koliko nam je potrebno. To su privatne Ip adrese I one nisu vidljive na internetu. 
+Moze da se sazna tako sto se ukuca u terminalu IP addr show i ako je IP adresa u nekom od opsega privatnih ip adresa onda se nalazi u NAT domenu.
+
+Napisati komandu kojom možemo da dobijemo IP adresu sajta imi.pmf.kg.ac.rs
+nslookup imi.pmf.kg.ac.rs
+
+Navesti komandu kojom se na Linuxu štampaju ARP paketi koji prolaze kroz mrežni interfejs eth0.
+		tcpdump -i eth0 arp 
+	Da je bilo mrezni interfejs eth1 onda bi i u komandi bilo eth1
+
+    Napisati formulu koja vezuje frekvenciju I talasnu dužinu talasa.
+c= λ*f
+c-> brzina svetlosti
+λ -> talasna duzina
+f-> frekvencija
+
+Koji je period okretanja satelita u GEO or biti?
+Nalazi se na 35000km I potrebna su 3 satelita. Period obilaska proporcionalan je poluprecniku orbite na stepen 3/2. Period okretanja jej oko 24h.
+
+Koji je osnovni problem(nedostatak) protokola RIP? Koji protokol ga je zamenio? Demonstrirati taj nedostatak primerom.
+Osnovni problem je problem priblizavanja beskonacnosti. Zamenio ga je OSPF protokol.
+Demonstracija:
+> 
+Kada se A iskljucio B vidi da C stize do A za 2 I on zakljuci posto on stize do C za 1  a C za 2, tako da njemu do A treba 3. On nema pojma da veza od C do A ide kroz njega. U tom trenutku niko ne moze da stigne do A I tako u beskonacnost.
+
+Šta je zadatak mrežnog sloja? A transportnog?
+Zadatak mreznog sloja je da pakete od izvorista do odredista sprovede celim putem, sto znaci da ih provuce kroz usputne rutere. Mrezni sloj mora da poznaje topologiju komunikacione podmreze, tj. skupa rutera. A transportni sloj treba da obezbedi pouzdan I isplativ prenos podataka bez obzira na fizicku mrezu ili mreze koje se trenutno nalaze izmedju izvorista I odredista.
+
+Kojim slojevima pripadaju sledeći protokoli: OSPF, SMTP, ARP, DNS, Aloha, BGP, ICMP, CSMA/CD, POP3, DHCP?
+OSPF – Mrezni sloj
+SMTP –Aplikativni sloj
+ARP – Mrezni sloj na internetu
+DNS – –Aplikativni 
+Aloga – Sloj veze podataka
+00
+ICMP – Mrezni sloj na internetu
+CSMA / CD – Sloj veze podataka
+POP3 – Aplikativni sloj
+DHCP - Mrezni sloj na internetu
+
+Od IP adrese 147.91.0.1 dostupna je cela B klasa. Tri institucije traže redom 8000, 4000 i 1000 adresa. Napisati CIDR domene (adresa+maska) koje će one dobiti.
+*besklasno adresiranje*
+
+Šta radi komanda tcpdump -i eth1 arp?
+Stampaju se ARP paketi koji prolaze kroz mrezni interfejs eth1(na LINUXU).
+
+Kojom sistemskom komandom se na Windows/Linux poziva ECHO ICMP zahtev? Navesti primer.
+ping 147.91.1.204 
+
+Čemu služi BIND serverska primitiva u Berkeley sockets implementaciji?
+BIND- uticnici(SOCKET) pridruzuje lokalnu adresu, poziva je samo server
+
+Koji su osnovni zadaci sloja veze podataka (3)?
+Osnovni zadaci sloja veze podataka su: kontrola brzine, tretman gresaka, Dobro definisan interfejs prema mreznom sloju
+
+U kojim uređajima na Internetu radi mrežni sloj, a u kojim transportni sloj?
+Mrezni sloj radi u ruterima, a transportni u samom racunaru korisnika/servera.
+
+U kojim jedinicama se izražava propusni opseg? Šta je UTP?
+Propusni opseg se izrazava Hz(hercima). UTP je nezasticena upredena parica. Ako su dva kabla paralelna onda se napravi elektro-magnet I tad je kabl podlozniji smetnjama, a kada su kablovi upredeni smetnje se ponistavaju.
+
+Po koliko računara mogu imati mreže klase A, klase B i klase C na mreži koja funkcioniše po IPv4 protokolu?
+Klasa A moze imati 128 mreza sa 16 miliona racunara → 2^24-2uredjaja
+klasa B moze imati 16384 mreze sa 64000 racunara I → 2^16-2 uredjaja
+klasa C moze imati 2 miliona mreza sa po 256 racunara ->2^8-2  uredjaja
+
+Zašto je svič napredniji uređaj od haba? Objasniti ukratko.
+Svic i hub rade istu stvar, ali je svic mnogo bolji. Svic se sastoji od 4 do 32 jedinstvene kartice, a svaka kartica funkcionise kao hab i ima 1-8 konektora. Danas svicevi imaju bafere u kojima cuvaju podatke dok ne budu mogli da se isporuce, zbog toga nije moguce sukobljavanje na svicu. Svic radi u sloju veze, cita frejm i salje okvire po MAC adresama.
+Kod haba ima sukobljavanja dosta, i radi u fizickom sloju.
+
+Navesti serverske primitive (funkcije) u Berkeley sockets implementaciji? Šta koja primitiva radi?
+SOCKET- pravi nov komunikacioni prikljucak(uticnicu), on nema mreznu adresu, pozivaju ga i klijent i server
+BIND- uticnici pridruzuje lokalnu adresu, poziva samo sever
+LISTEN- pravi red cekanja u koji staju klijenti, ne blokira se
+ACCEPT- ceka da se javi klijent, blokirajuci
+CONNECT- klijent pokusava da uspostavi konekciju
+SEND/RECEIVE- izvrsavaju i klijent i server
+CLOSE- zatvara konekcije
+
+Šta definiše Nikvistova, a šta Šenonova teorema?
+Nikvistova:
+Signal koji prolazi kroz filter propusnog opsega H moze se u potpunosti rekonstruisati ako se uzrokuje frekvencijom 2H uzorka u sekundi. 
+Umax[b/s] = 2Hlog2V (U – najveca brzina, H – propusni opseg, V – broj nivoa napona)
+Senonova:
+Sum se izrazava odnosom signala I suma -> S/N
+Umax[b/s] = Hlog2(1+s/n)
+
+Navesti komande koje vraćaju IP adresu računara na Windowsu i na Linuxu.
+Linux: ip addr, Windows: ipconfig /all
+
+Navesti osnovne korake (5) kod rutiranja protokolom koji je zasnovan na stanju veze.
+1.Da otkrije svoje susede I sazna mrezne adrese
+2.Da izmeri vreme I troskove slanja do njih
+3.Da napravi paket sa podacima koji su do njih dosli
+4.Da taj paket posalje svima
+5. Da izracuna najkracu putanju svakog rutera(Dijkstra)
+
+Objasniti kako radi algoritam binarnog eksponencijalnog odustajanja kod Etherneta.
+Algoritam binarnog eksponencijalnog odustajanja radi tako sto prvo salje sa verovatnocom 1 I odma posalje frejm, ako paket ne uspe da se posalje on onda posalje sa verovatnocom 0.5 , zatim ¼ pa 1/6 I sve do 1/2^10. Ako dodje do kraja resetuje se.
+
+Objasniti kako radi p-trajni (p-permanent) CSMA protokol sloja veze. Na koji način se razlikuje od povremenog (non-persistent) CSMA?
+P-trajni radi tako sto emituje svoj frejm verovatnocom p. Sto znaci da ce se svaki svaki p-ti put emitovati. A povremeni ne osluskuje stalno mrezu nego odredjuje slucajne vremenske intervale I onda proverava da li se kanal oslobodio, ako jeste on pocinje da emituje a ako nije on “spava”odredjeno vreme.
+
+Šta rade sledeće Linux komande:
+ip link show – prikaz informacija o svim mreznim interfejsima
+tcpdump -i eno1 icmp - Prati ICMP pakete samo na interfejsu eno1 i prikazuje ih
+
+Šta rade sledeće netcat komande:
+nc -l -v 1234 > podaci.txt 
+otvori se port za slusanje 1234 i umesto u terminal prosledjuje ispis u podaci.txt
+ncat -v -l -p 5555 -c ’while true; do read i && echo [echo] $i; done’  
+otvara  vezu na portu 5555 i izvrsava komandu (za to sluzi -c) a to je beskonacna petlja u bash-u. U petlji, ucitava i i vraca na kanal --->[echo]  + ucitani podatak.Tj ono sto smo uneli sa prefiksom [echo]. Klijent posalje poruku - “CAO”, server mu vraca→ [echo]Cao.
+
+Topologija mreže i RIP vektori koje je ruter J primio od suseda dati su na slici:
+Kojom linijom će sa rutera J biti upućen paket čiji je cilj ruter D? Objasniti.
+Susedi od rutera J su I,A,H,K. Ruter J od suseda dobija informacije o vektorima razdaljine.
+Od J do A za 8, a od A do D  40 sto je 48. Od J do I za 10 a od I do D za 27 sto je 37. Od J do H je 12 a od H do D je za 8 sto je 20 I na kraju od J do K je za 6 a od k do D je za 24 sto je 30 .
+Konacno: Od rutera J do D ide se preko H I treba mu 20ms.
+
+Sta je propusni opseg?
+Opseg frekvencija  koji medijum propusta  bez veceg slabljena. Sto je medijum kvalitetniji on ima veci propusni opseg.
+
+Koliko kanala koristi ADSL?
+256 nezavisnih kanala, po 4KHz. 
+
+Da li se kod WI FI-a obicno koristi kod za ispravljanje ili kod za otkrivanje greska?
+Obicno se koristi kod za ispravljanje gresaka.
+
+Sta znaci CSMA?
+Carrier Sense Multiple Access - Osluskivanje kanala, vise pristupa medijumu
+
+Po cemu je specifican domen 192.168.0.0/16
+Specifican je po tome sto je to pocetak opsega privatnih IP adresa, i ide sve do 192.168.255.255
+
+Iz koja dva podsloja se sastoji sloj veze podataka	
+-Podsloj za upravljanje pristupom medijumu (MAC) - vise uredjaja koristi isti medijum za prenos, MAC pomaze da ne dodje do sukobljavanja prilikom emitovanja frejmova tj do koalizije
+-Podsloj za upravljanje logikom (LLC) - njegova uloga je da skriva razlike izmedju mreza i postavi jedinstven interfejs prema mreznom sloju. Mrezni sloj ne zanima da li je to eternet ili wifi, on radi  potpuno isto i to mu LLC omogucuje.
+
+Koji protokol ima problem sa priblizavanjem beskonacnoscu? Kom sloju priprada?
+RIP, mrezni sloj.
+
+Navesti bar 3 standarda za Ethernet. U kom sloju radi Ethernet.
+IEEE 802.3, 
+IEEE 802.3z - Gigabitni Ethernet
+IEEE 802.3u - Brzi Ethertnet
+Radi u sloju veze podataka.
+
+Koju vrstu modulacije koristi ADSL i kablovskih modema?
+      ADSL:
+QAM -16
+Quadrature Amplitude Modulation - Kombinacija Amplituda i fazne modulacije. 
+Kablovski modemi:
+QAM 64 ili QAM 256 → kanali 6MHz ili 8Mhz. Kablovski modemi su slozeniji od ADSL modema jer postoji problem podelee propusnog opsega sa ostalim korisnicima
+
+Navesti klijentske Berkeley Sockets primitive (funkcije)? 
+SOCKET,RECEIVE,SEND,CLOSE,CONNECT. CONNECT je iskljucivo klijentska,ostale mogu da koriste i server i klijent.
+56.Kojom komandom na Linuxu se ispisuju MAC i IP adrese mreznih adaptera?
+     ipaddr
+*Boldirana pitanja su pitanja iz poslednjeg roka. Od 13 pitanja 6 je iz prethodnih rokova. 
+
+
+PRIVATNE IP adrese:
+10.0.0.0 - 10.255.255.255
+172.16.0.0 - 172.16.255.255
+192.168.0.0 - 192.168.255.255
+
+Komande
+tracert google.com (Windows) i traceroute (Linux) 
+Prati putanju do odredjene adrese, ruteri i vremenska udaljenost, broj   hop-ova tj broj rutera na putanji. 
+ ipconfig /all (Windows) i ipaddr 
+Daje sve mrezne kontrolere(NIC) koje imamo u racunaru. Fizicka adresa je MAC adresa ima 6 bajtova. MAC adresa je jedinstvena adresa uredjaja tj to je adresa njegovog mreznog kontrolera. Ako ima vise NIC-eva racunar moze eimati vise MAC adresa.  link/ether - MAC adresa.
+ipcalc (ipcalc 147.91.0.0/22) 
+Komanda na Linuxu koja pokazuje odnovne podatke o mrezi - network, broadcast, kladu, localhost, podmrezu..
+ipcalc 194.24.0.0 - 194.24.31.255 
+Moze da napravi grupnu odrednicu koja za opseg adresa pravi zajednicku odrednicu u vidu maske
+ping 147.91.204.11 
+Ping komanda koja priprada ICMP protokolu i radi na principu ECHO request/ECHO reply. Posalje zahtev na adresu i stigne odgovor sa adrese
+tcpdump 
+Komanda koja sluzi za ispitivanje paketa koji prolaze kroz odredjeni mrezni interfejs
+tcdump -i ech0 icmp
+Prati icmp pakete samo na interfejsu eth0 i prikazuje ih
+tcpdump icmp 
+Prati ICMP pakete na svim inerfejsima
+sudo tcpdump | grep OSPF 
+Pretraga za OSPF pakete, to su HELLO paketi kada se upoznaju susedi
+sudo tcpdump arp
+Vidimo saobracaj ARP request i ARP reply. Zahtev za MAC adresom na osn ovu IP adrese. Ovaj saobracaj nije sifrovan.
+arp
+Prikaz ARP tabele, parova IP adrese i MAC adrese. Tabela je privremena i podaci se menjaju na 5-10 minuta.
+vim /etc/dhcp/dhcp. cont
+Ovo je adresa DHCP  konfiguracionog fajla.
+
+sudo tcpdump | grep BOOTP 
+Pracenje BOOTP i DHCP zahteva za  dodelu IP adrese
+cat /etc/services 
+Lista portova: broj porta i koji protokol koristi
+nslookup imi.pmf.kg.ac.rs 
+Daje IP adresu sajta
+cat /etc/veson.conf
+Dobijamo adresu name servera
+netstat -na lt | grep : 80
+Izlistava sve otvorene konekcije na portu 80
+nc -v google.com 80
+netcat komanda sluzi da se nakacimo na gooogle.com na port 80 i mozemo da mu saljemo HTTP zahteve
+telnet localhost 1234
+telnet komanda koja nam omogucava da se nakacimo na port koji slusa
+nc -l -v 1234 
+otvori se port za slusanje
+nc -l -v 1234  > data.txt → prosledjuje u txt fajl
+
+
+
+
+
+
+
+
+> Priscilla Knjiga 30 strana
+> Steve Trolisnica
+> Priscilla Trolisnica ARM
+> Priscilla Trolisnica Ciklon
+> Ognjen 1700 rsd
+> Kirija 
+> Punjač
+> NoFace Kodovoi
+> NoFace Novi Post
+> Kupac što fale podaci
+> Knjiga Prometa
+> Email Potpis
+> Miličina Drugarica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

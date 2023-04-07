@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- predstavlja troglavog boga ratnika na crnom konju -->
+    <link rel="stylesheet" href="../css/base-style.css" />
+    <link rel="stylesheet" href="../css/comic-style.css" />
+    <script src="../js/script.js"></script>
+    <title>HellBoy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="icon" type="../image/x-icon" href="/img/konj1-beo.png" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h1>Triglav</h1>
+      <ul>
+        <li><a href="index.html">Naslovna</a></li>
+        <li><a href="alan-ford.html">Alan Ford</a></li>
+        <li><a href="dylan-dog.html">Dylan Dogg</a></li>
+        <li><a href="konan.html">Konan</a></li>
+        <li><a href="zagor.html">Zagor</a></li>
+        <li><a class="active" href="hellboy.html">HellBoy</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+      <img src="../img/konj1-beo.png" alt="triglav" />
+    </div>
+
+    <div class="container">
+      <div class="comic">
+        <img src="../img/350469.jpg" alt="triglav" />
+        <div class="comic-about">
+          <h1>HELL<span class="highlight">BOY</span></h1>
+          <p>
+            Hellboy, ili "Anung Un Rama" kako su ga zvali, začet je 5.
+            listopada, 1617., dan kad je njegova rođena majka Sarah Hughes, rođ
+            ljudski žena, bila na samrti. U životu je Sarah bila vještica koja
+            je svoje moći stekla time što je bila supruga arhidemon, Azzael, an
+            Nadvojvoda Pakla, i Hellboyev "biološki" otac. Odvodeći Sarino
+            tijelo u pakao kad se pokušala pokajati na samrti u crkvi u East
+            Bromwich, Engleska, Azzael ju je spalio kako bi im se rodilo dijete
+            i odsjekao novorođenčetu desnu ruku kako bi je zamijenio "Desnom
+            rukom propasti", relikvijom vezanom za Ogdru Jahad.
+          </p>
+        </div>
+      </div>
+
+      <div class="comic-filter">
+        <input
+          id="name"
+          name="name"
+          placeholder="Unesite naziv"
+          onchange="loadXML()"
+        />
+        <select
+          id="comic-filter-choice"
+          name="comic-filter-choice"
+          onchange="showComics()"
+        ></select>
+
+        <select id="available" name="available" onchange="showComics()">
+          <option value="SVE">Prikaži sve</option>
+          <option value="DA">Prikaži samo dostupne</option>
+          <option value="NE">Prikaži rasprodate</option>
+        </select>
+      </div>
+
+      <div class="comic-grid"></div>
+
+      <footer>
+        <p>
+          CopyRight &copy; Triglav Stripovi -
+          <a href="">Filip Milosavljevic 65-2019</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
